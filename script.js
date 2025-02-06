@@ -15,3 +15,5 @@ document.getElementById("generate-btn").addEventListener("click", function() {
     const randomFika = fikaList[Math.floor(Math.random() * fikaList.length)];
     document.getElementById("result").textContent = "Ditt fika: " + randomFika;
 });
+
+
