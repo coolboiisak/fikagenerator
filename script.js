@@ -17,3 +17,13 @@ document.getElementById("generate-btn").addEventListener("click", function() {
 });
 
 
+document.getElementById("darkModeToggle").addEventListener("click", function() {
+    document.body.classList.toggle("dark-mode");
+
+    // Ändra knappens text
+    if (document.body.classList.contains("dark-mode")) {
+        this.textContent = " Light Mode";
+    } else {
+        this.textContent = " Dark Mode";
+    }
+});
